@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Number Guessing Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+
+<body>
+  <h1>Number Guessing Game</h1>
+  <h3>Try and guess a random number between 1 and 100.</h3>
+  <h3>You have 10 attempts to guess the right number.</h3>
+  <h2>Guess a Number</h2>
+  <div class="box">
+    <form class="form">
+      <input type="text" class="guessField">
+      <br />
+      <input class="btn btn-secondary guessSubmit" type="submit" value="Submit Number">
+    </form>
+    <div class="result">
+      <p>Previous Guesses: <span class="guesses"></span></p>
+      <p>Guesses Remaining: <span class="lastResult">10</span></p>
+      <p>Result: <span class="lowOrHi"></span></p>
+    </div>
+  </div>
+  <div class="end">
+    <hr />
+    © Pranay 2022
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

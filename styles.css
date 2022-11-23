@@ -1,0 +1,63 @@
+body{
+  background-color: #DF6589FF;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  color:#3C1053FF;
+  font-size: 6rem;
+  font-family: 'Odibee Sans', cursive;
+
+}
+h2{
+  text-align: center;
+  font-size: 4rem;
+  margin: 15px 0;
+  color:#3C1053FF;
+  font-family: 'Odibee Sans', cursive;
+}
+h3{
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color:#3C1053FF;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+.guessField{
+  position: relative;
+  text-align: center;
+  left: 45%;
+  margin-bottom: 10px;
+  border-color: #3C1053FF;
+  font-size: 3rem;
+  width: 10%;
+}
+.guessSubmit{
+  background-color: #3C1053FF;
+  color:#DF6589FF;
+  margin: 0 auto;
+  display: block;
+}
+.guessSubmit:hover{
+  background-color: #3C1053FF;
+  color:#fff;
+  margin: 0 auto;
+  display: block;
+}
+.result{
+  margin: 20px;
+  text-align: center;
+  font-size: 1.45rem;
+  color: #3C1053FF;
+  font-weight: bold;
+  padding-bottom: 100px;
+  font-family: 'Slabo 27px', serif;
+}
+.end{
+  text-align: center;
+  color: #DF6589FF;
+  background-color:#3C1053FF;
+  padding-bottom: 120px;
+
+}
